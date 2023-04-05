@@ -1,0 +1,21 @@
+{
+  "name": "ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.10.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "google-spreadsheets": "^2.0.0",
+    "googleapis": "^78.0.0",
+    "request": "^2.88.2",
+    "sparkpost": "^2.1.4"
+  }
+}
