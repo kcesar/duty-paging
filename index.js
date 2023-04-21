@@ -173,7 +173,7 @@ sendDutyPage = msg => {
 
 	}, (error, response, body) => {
 
-		fs.appendFileSync(LOGFILE, `sendDutyPage::${dayjs().format('YYYY-MM-DD')} ==> ${scrubbed}\r\n`);
+		fs.appendFileSync(LOGFILE, `sendDutyPage::${dayjs().format('YYYY-MM-DD HH:mm:ss')} ==> ${scrubbed}\r\n`);
 
 	});
 
